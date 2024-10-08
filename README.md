@@ -108,3 +108,8 @@ Run tests with coverage report:
 ```console
 $ yarn coverage
 ```
+
+## 快速部署
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://https://github.com/eorendel/pastebin-worker)
+
