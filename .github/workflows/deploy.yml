@@ -19,10 +19,10 @@ jobs:
 
       - name: Install Yarn
         run: npm i -g yarn
+             npm i @cloudflare/wrangler -g
         
       - name: Install Dependencies
         run: yarn install
-
       
       - name: Check and Create KV Namespace
         env:
