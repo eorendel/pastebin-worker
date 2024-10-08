@@ -28,7 +28,7 @@ This is a pastebin that can be deployed on Cloudflare workers. Try it on [shz.al
 1. If deployed on Cloudflare Worker free-tier plan, the service allows at most 100,000 reads and 1000 writes, 1000 deletes per day. 
 2. Due to the size limit of Cloudflare KV storage, the size of each paste is bounded under 25 MB. 
 
-
+部署前请将wrangler.toml文件里的域名修改成自己的。
 
 ## 快速部署
 
