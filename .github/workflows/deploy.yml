@@ -34,7 +34,7 @@ jobs:
           LIST_OUTPUT=$(wrangler kv namespace list)
           echo "KV namespace list output: $LIST_OUTPUT"
           
-          KV_ID=$(echo "$LIST_OUTPUT" | jq -r '.[] | select(.title == "sublink-worker-'$KV_NAMESPACE'") | .id')
+          KV_ID=$(echo "$LIST_OUTPUT" | jq -r '.[] | select(.title == "pastebin-'$KV_NAMESPACE'") | .id')
           
           if [ -z "$KV_ID" ]; then
               echo "KV namespace $KV_NAMESPACE does not exist. Creating..."
