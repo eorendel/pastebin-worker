@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Yarn
         run: npm i -g yarn
-             npm i @cloudflare/wrangler -g
+             npm install -g wrangler
         
       - name: Install Dependencies
         run: yarn install
